@@ -21,11 +21,12 @@ class Program
         {
             Process process = new Process { StartInfo = psi };
             process.Start(); //
-            process.Close();
+           // process.Close();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
+           
         }
     }
 }
